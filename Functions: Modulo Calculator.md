@@ -12,14 +12,16 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
+
 ```
-a=int(input()) 
-b=int(input()) 
-f=lambda a,b: a+b
-print(f(a,b)
+def result(a,b): 
+mod=a%b 
+print(f"modulo is {mod}") 
+a = int(input()) 
+b = int(input())
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/e34b7e6a-b0d9-4a6b-88dc-543ec2286c76)
+![image](https://github.com/user-attachments/assets/4111bf2c-3bb9-4dc2-8166-a739be55b238)
 
 ## Result
  Thus, the program has been successfully executed. 
